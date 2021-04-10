@@ -1,0 +1,1 @@
+cp norman ~/.local/bin 
