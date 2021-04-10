@@ -2,6 +2,8 @@
 
 [[ $# -eq 0 ]] && echo "atleast 1 argument needed" && exit 1
 
-git clone https://github.com/norpie-dev/$1 temp &&
-autoinstall temp &&
-rm temp -rf
+for arg in "$@"; do
+    git clone https://github.com/norpie-dev/$arg temp &&
+    autoinstall temp &&
+    rm temp -rf
+done
