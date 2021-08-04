@@ -1,1 +1,1 @@
-cp norman autoinstall /bin/
+cp bin/norman bin/autoinstall /bin/
