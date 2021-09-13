@@ -1,1 +1,1 @@
-cp bin/norman bin/autoinstall /bin/
+sudo cp bin/norman bin/autoinstall /bin/
